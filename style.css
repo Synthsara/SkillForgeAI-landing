@@ -1,0 +1,125 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+  color: #333;
+}
+
+/* Hero Section */
+header {
+  background-color: #1e3a8a; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+header a {
+  background-color: #f59e0b; /* Yellow */
+  color: #1e3a8a;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+header a:hover {
+  background-color: #d97706; /* Darker Yellow */
+}
+
+/* About Section */
+section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Sign-Up Section */
+#signup {
+  background-color: #edf2f7; /* Light Gray */
+  padding: 40px 20px;
+}
+
+#signup h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#signup p {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e3a8a; /* Blue */
+  color: white;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1e40af; /* Darker Blue */
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a8a; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1rem;
+}
