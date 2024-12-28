@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SkillForgeAI</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkillForgeAI - Forge Your Path, Define Your Future. Reskill with AI-powered guidance for the jobs of tomorrow.">
+    <title>SkillForgeAI - Forge Your Path</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-100 font-sans">
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="SkillForgeAI Logo"> <!-- Replace with your logo -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button class="nav-btn">Get Started</button></li>
+        </ul>
+    </nav>
 
-  <!-- Hero Section -->
-  <header class="bg-blue-900 text-white text-center py-20">
-    <h1 class="text-4xl font-bold mb-4">Forge Your Path, Define Your Future</h1>
-    <p class="text-xl mb-6">SkillForgeAI helps you stay ahead in the changing job market with personalized career guidance and reskilling pathways.</p>
-    <a href="#signup" class="bg-yellow-500 text-blue-900 py-2 px-6 rounded-lg font-semibold">Get Started</a>
-  </header>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Forge Your Path, Define Your Future</h1>
+            <p>Empowering individuals to reskill and succeed in the AI-driven workforce.</p>
+            <button id="getStartedBtn">Get Started</button>
+        </div>
+    </header>
 
-  <!-- About Section -->
-  <section class="container mx-auto px-4 py-16 text-center">
-    <h2 class="text-3xl font-semibold mb-8">What is SkillForgeAI?</h2>
-    <p class="text-lg mb-6">SkillForgeAI uses artificial intelligence to analyze your skills and career interests, then guides you towards reskilling opportunities. Whether you're looking to advance in your current field or pivot to a new one, SkillForgeAI is here to help you define your future.</p>
-    <p class="text-lg mb-6">No more uncertainty about the future of work. With SkillForgeAI, you can stay ahead of technological advancements and unlock your full potential.</p>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About SkillForgeAI</h2>
+        <p>SkillForgeAI leverages AI-powered tools to reskill individuals and future-proof their careers. Whether you're an individual, school, or business, we help you stay ahead of technology.</p>
+    </section>
 
-  <!-- Sign-Up Section -->
-  <section id="signup" class="bg-gray-200 py-16">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-semibold mb-4">Sign Up for Updates</h2>
-      <p class="text-lg mb-8">Be the first to know when SkillForgeAI launches and receive exclusive offers!</p>
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <img src="images/ai-tools.png" alt="AI Tools"> <!-- Replace with your image -->
+                <h3>AI-Powered Insights</h3>
+                <p>Personalized career recommendations powered by cutting-edge AI technology.</p>
+            </div>
+            <div class="feature">
+                <img src="images/gamification.png" alt="Gamification"> <!-- Replace with your image -->
+                <h3>Gamified Learning</h3>
+                <p>Interactive, fun, and engaging tools to make learning exciting.</p>
+            </div>
+            <div class="feature">
+                <img src="images/community.png" alt="Community"> <!-- Replace with your image -->
+                <h3>Community Support</h3>
+                <p>Connect with mentors, peers, and industry experts to grow together.</p>
+            </div>
+        </div>
+    </section>
 
-      <!-- Sign-Up Form -->
-      <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
-        <input type="email" name="email" placeholder="Enter your email" required class="w-full p-4 mb-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
-        <button type="submit" class="w-full bg-blue-900 text-white py-3 rounded-lg font-semibold">Sign Up</button>
-      </form>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-8 text-center">
-    <p>&copy; 2024 SkillForgeAI. All rights reserved.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SkillForgeAI. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
 
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
 </body>
 </html>
